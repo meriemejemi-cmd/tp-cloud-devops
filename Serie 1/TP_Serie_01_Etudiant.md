@@ -158,5 +158,3 @@ print("Serveur-heures elastique :", h_elastique, "->", h_elastique * PRIX, "EUR"
 print("Economie : %.1f %%" % (100 * (1 - h_elastique / h_statique)))
 ```
 
-
-> L'infrastructure statique mobilise 7 serveurs pendant 24 heures pour couvrir le pic de 700 requêtes/s. L'infrastructure élastique ajuste le nombre de serveurs chaque heure, ce qui permet d'économiser **39 € sur la journée simulée**.
